@@ -1,36 +1,7 @@
-const questions = {
+var quizQuestions = {
     position: 0,
     list: [
-        {
-            question: "What tag can be used to insert a line break or blank line in an HTML document?",
-            choices: [
-                "<br></br>",
-                "<p></p>",
-                "<h1></h1>",
-                "<div>/<div>"
-            ],
-            answer: 0
-        },
-        {
-            question: "What tag is used to define – and place – an interactive button in an HTML document?",
-            choices: [
-                "<td>",
-                "<btn>",
-                "<button>",
-                "<check>"
-            ],
-            answer: 2
-        },
-        {
-            question: "What declaration MUST be included as the first item in an HTML document before the tag and is used to provide instructions to the web browser?",
-            choices: [
-                "<embed>",
-                "<script>",
-                "<link>",
-                "<!DOCTYPE>"
-            ],
-            answer: 3
-        },
+       
         {
             question: "What is the format called that is used for storing and transporting data?",
             choices: [
